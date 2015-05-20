@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" >
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/JavaScript" src="js/index.js"></script>
+
+<html>
+<link rel="Stylesheet" href="styl.css">
+	<div class="row" id="kol">
+	
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+
+			<head>
+				<div class="alert alert-danger" role="alert"> <h4><p align="center"> Lista Przepisów </p></h4> </div>
+			
+			
+			</head>
+			<body>
+
+				<ul class="nav nav-pills" role="tablist" id="nav">
+				  <li role="presentation"><a href="#">Śniadanie</a></li>
+				  <li role="presentation"><a href="#">Obiad</a></li>
+				  <li role="presentation"><a href="#">Kolacja</a></li>
+				</ul>
+
+				<div class="jumbotron">
+					<ol style="list-style-type: upper-roman">
+					<li role="presentation"><a href="#">Krokiety</a></li>
+					<li role="presentation"><a href="#">Kurczak w sosie na ostro</a></li>
+					<li role="presentation"><a href="#">Wołowina</a></li>
+					<li role="presentation"><a href="#">Naleśniki</a></li>
+					<li role="presentation"><a href="#">Banan</a></li>
+					</ol>
+				</div>
+
+				
+
+				<button type="button" class="btn btn-default btn-lg">Wyszukiwarka</button>
+
+				<br>
+				<br>
+
+				
+
+				
+
+				
+
+
+				<nav>
+				  <ul class="pager">
+				    <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Poprzedni posiłek</a></li>
+				    <li class="next"><a href="#">Następny posiłek <span aria-hidden="true">&rarr;</span></a></li>
+				  </ul>
+				</nav>
+
+			</body>
+
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+<footer id="footer">
+   <p>Copyright by Koksownia &copy; 2015</p>
+   <p> Strona by Wielki koksu</p>
+  </footer>
+</html>
