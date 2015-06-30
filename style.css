@@ -1,0 +1,27 @@
+html
+{
+background-color:#009966;
+}
+P1 {font-size: 17pt; color: #009966; font-family: "Verdana CE", Verdana, "Arial CE", Arial, Helvetica, sans-serif; text-decoration: none; text-align: justify; margin-bottom: 2px; font-weight: bold;}
+P2 {font-size: 13pt; color: #33CC99; font-family: "Verdana CE", Verdana, "Arial CE", Arial, Helvetica, sans-serif; text-decoration: underline; text-align: justify; margin-bottom: 2px; font-weight: normal;}
+H5 {font-size: 8pt; color: gray; font-family: "Verdana CE", Verdana, "Arial CE", Arial, Helvetica, sans-serif; text-decoration: none; text-align: justify; margin-bottom: 2px; font-weight: normal;}
+body {
+    background-color: #e9efc9 ;
+}
+input[type="submit"] {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 2px solid #009966;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 15px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 11px;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+input[type="submit"]:hover {
+  background-color: #b0d0cd;
+}
